@@ -8,7 +8,9 @@
       a {
         color: #f00;
       }
-
+      body {
+       height: 800px;
+      }
       /* SOCIAL STYLES */
       .social-link {
         background: rgba(150, 150, 150, 0.5);
@@ -16,16 +18,25 @@
       }
 
       /* BIO STYLES */
+      .bio-wrapper {
+	font-size: 24px;
+      }
       .bio-box {
         border: 10px solid black;
 	width: 200px;
+	margin: 20%;
+	padding: 20px;
+	font-size: 48px;
       }
-      .bio-copy a {
+      .bio-copy {
         color: green;
+	font-size: 1em; 
       }
     </style>
   </head>
   <body>
+   <div style="border:1px solid #000;width: 50%;height:100%;">I'm a percent
+test</div>
     <h1>I'm an h1</h1>
     <ul>
       <li>
@@ -39,6 +50,7 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
+   <div class="bio-wrapper">
     <div class="bio-box">
       <h3>Michael Hartl</h3>
       <a href="http://twitter.com/mhartl" class="social-link">here</a>
@@ -100,5 +112,6 @@ k is a
         The Future is here
       </p>
     </div>
+   </div>
   </body>
 </html>
